@@ -1,8 +1,7 @@
 # trajectory_extraction
 Python implementation of 'Improved Trajectories' video description pipeline : extract trajectories -> cluster -> BoF representation.
 <br><br>
-Learns a codebook of trajectory features and represents videos with a BoF representation. Parameters are set in
-feature_extraction_pipeline.py. It is set up to take two text files - one containing names of training videos and one
+Learns a codebook of trajectory features and represents videos with a BoF representation. An example with parameter settings is found in demo.py. It is set up to take two text files - one containing names of training videos and one
 containing names of test videos.
 <br><br>
 Dependencies:<br>
